@@ -1,0 +1,1190 @@
+Youtube Course: https://www.youtube.com/watch?v=SOTamWNgDKc
+Cheat sheets, Practice Exams and Flash cards: www.exampro.co/clf-c01
+Where to test: https://aws.amazon.com/certification/certified-cloud-practitioner/
+
+
+
+I. What is AWS Certified Cloud Practitioner
+    A. 
+II. The AWS Certification Roadmap
+    A. Cloud Practitioner -> SysOps Administrtator / Developer / Solutions Architect (Associate level) -> DevOps Engineer / Solutions Architect (Professional level) -> Security / Advanced Networking / Database / Machine Learning / Data Analytics (Specialties)
+        1. Solutions Architect (AKA Cloud Engineer)
+        2. Developer (AKA Cloud Developer)
+        3. SysOps Administrator (AKA Junior DevOps)
+        4. Solutions Architect (AKA CLoud Architect)
+        5. DevOps Engineer (AKA Site Reliability Engineer)
+III. Exam Guide - Content Outline
+    A. Domain 1 (26%): Cloud Concepts
+        1. Define the benefits of the AWS Cloud.
+            a. Knowledge of:
+                i. Value proposition of the AWS Cloud
+            b. Skills in:
+                i. Understanding the economies of scale (for example, cost savings)
+                ii. Understanding the benefits of global infrastructure (for example, speed of deployment, global reach)
+                iii. Understanding the advantages of high availability, elasticity, and agility
+        2. Identify design principles of the AWS Cloud.
+            a. Knowledge of:
+                i. AWS Well-Architected Framework
+            b. Skills in:
+                i. Understanding the pillars of the Well-Architected Framework (for example, operational excellence, security, reliability, performance efficiency, cost optimization, sustainability)
+                ii.Identifying differences between the pillars of the Well-Architected Framework
+        3. Understand the benefits of and strategies for migration to the AWS Cloud.
+            a. Knowledge of:
+                i. Cloud adoption strategies
+                ii. Resources to support the cloud migration journey
+            b. Skills in:
+                i. Understanding the benefits of the AWS Cloud Adoption Framework (AWS CAF) (for example, reduced business risk; improved environmental, social, and governance (ESG) performance; increased revenue; increased operational efficiency)
+                ii. Identifying appropriate migration strategies (for example, database replication, use of AWS Snowball)
+        4. Understand concepts of cloud economics.
+            a. Knowledge of:
+                i. Aspects of cloud economics
+                ii. Cost savings of moving to the cloud
+            b. Skills in:
+                i. Understanding the role of fixed costs compared with variable costs
+                ii. Understanding costs that are associated with on-premises environments
+                iii. Understanding the differences between licensing strategies (for example, Bring Your Own License [BYOL] model compared with included licenses)
+                iv. Understanding the concept of rightsizing
+                v. Identifying benefits of automation (for example, provisioning and configuration management with AWS CloudFormation)
+                vi. Identifying managed AWS services (for example, Amazon RDS, Amazon Elastic Container Service [Amazon ECS], Amazon Elastic Kubernetes Service [Amazon EKS], Amazon DynamoDB)
+    B. Domain 2 (25%): Security and Compliance
+        1. Understand the AWS shared responsibility model.
+            a. Knowledge of:
+                i. AWS shared responsibility model
+            a. Skills in:
+                i. Recognizing the components of the AWS shared responsibility model
+                ii. Describing the customer’s responsibilities on AWS
+                iii. Describing AWS responsibilities
+                iv. Describing responsibilities that the customer and AWS share
+                v. Describing how AWS responsibilities and customer responsibilities can shift, depending on the service used (for example, Amazon RDS, AWS Lambda, Amazon EC2)
+        2. Understand AWS Cloud security, governance, and compliance concepts.
+            a. Knowledge of:
+                i. AWS compliance and governance concepts
+                ii. Benefits of cloud security (for example, encryption)
+                iii. Where to capture and locate logs that are associated with cloud security
+            b. Skills in:
+                i. Identifying where to find AWS compliance information (for example, AWS Artifact)
+                ii. Understanding compliance needs among geographic locations or industries (for example, AWS Compliance)
+                iii. Describing how customers secure resources on AWS (for example, Amazon Inspector, AWS Security Hub, Amazon GuardDuty, AWS Shield)
+                iv. Identifying different encryption options (for example, encryption in transit, encryption at rest)
+                v. Recognizing services that aid in governance and compliance (for example, monitoring with Amazon CloudWatch; auditing with AWS CloudTrail, AWS Audit Manager, and AWS Config; reporting with access reports)
+                vi. Recognizing compliance requirements that vary among AWS services 
+        3. Identify AWS access management capabilities.
+            a. Knowledge of:
+                i. Identity and access management (for example, AWS Identity and Access Management [IAM])
+                ii. Importance of protecting the AWS root user account
+                iii. Principle of least privilege
+                iv. AWS IAM Identity Center (AWS Single Sign-On)
+            b. Skills in:
+                i. Understanding access keys, password policies, and credential storage (for example, AWS Secrets Manager, AWS Systems Manager)
+                ii. Identifying authentication methods in AWS (for example, multi-factor authentication [MFA], IAM Identity Center, cross-account IAM roles)
+                iii. Defining groups, users, custom policies, and managed policies in compliance with the principle of least privilege
+                iv. Identifying tasks that only the account root user can perform
+                v. Understanding which methods can achieve root user protection
+                vi. Understanding the types of identity management (for example, federated)
+        4. Identify components and resources for security.
+            a. Knowledge of:
+                i. Security capabilities that AWS provides
+                ii. Security-related documentation that AWS provides
+            b. Skills in:
+                i. Describing AWS security features and services (for example, security groups, network ACLs, AWS WAF)
+                ii. Understanding that third-party security products are available from AWS Marketplace
+                iii. Identifying where AWS security information is available (for example, AWS Knowledge Center, AWS Security Center, AWS Security Blog)
+                iv. Understanding the use of AWS services for identifying security issues (for example, AWS Trusted Advisor)
+    C. Domain 3 (33%): Technology
+        1. Define methods of deploying and operating in the AWS Cloud.
+            a. Knowledge of:
+                i. Different ways of provisioning and operating in the AWS Cloud
+                ii. Different ways to access AWS services
+                iii. Types of cloud deployment models
+                iv. Connectivity options
+            b. Skills in:
+                i. Deciding between options such as programmatic access (for example, APIs, SDKs, CLI), the AWS Management Console, and infrastructure as code (IaC)
+                ii. Evaluating requirements to determine whether to use one-time operations or repeatable processes
+                iii. Identifying different deployment models (for example, cloud, hybrid, on-premises)
+                iv. Identifying connectivity options (for example, AWS VPN, AWS Direct Connect, public internet)
+        2. Define the AWS global infrastructure.
+            a. Knowledge of:
+                i. AWS Regions, Availability Zones, and edge locations
+                ii. High availability
+                iii. Use of multiple Regions
+                iv. Benefits of edge locations
+                v. AWS Wavelength Zones and AWS Local Zones
+            b. Skills in:
+                i. Describing relationships among Regions, Availability Zones, and edge locations
+                ii. Describing how to achieve high availability by using multiple Availability Zones
+                iii. Recognizing that Availability Zones do not share single points of failure
+                iv. Describing when to use multiple Regions (for example, disaster recovery, business continuity, low latency for end users, data sovereignty)
+                v. Describing at a high level the benefits of edge locations (for example, Amazon CloudFront, AWS Global Accelerator)
+        3. Identify AWS compute services.
+            a. Knowledge of:
+                i. AWS compute services
+            b. Skills in:
+                i. Recognizing the appropriate use of different EC2 instance types (for example, compute optimized, storage optimized)
+                ii. Recognizing the appropriate use of different container options (for example, Amazon ECS, Amazon EKS)
+                iii. Recognizing the appropriate use of different serverless compute options (for example, AWS Fargate, Lambda)
+                iv. Recognizing that auto scaling provides elasticity
+                v. Identifying the purposes of load balancers
+        4. Identify AWS database services.
+            a. Knowledge of:
+                i. AWS database services
+                ii. Database migration
+            b. Skills in:
+                i. Deciding when to use EC2 hosted databases or AWS managed databases
+                ii. Identifying relational databases (for example, Amazon RDS, Amazon Aurora)
+                iii. Identifying NoSQL databases (for example, DynamoDB)
+                iv. Identifying memory-based databases
+                v. Identifying database migration tools (for example AWS Database Migration Service [AWS DMS], AWS Schema Conversion Tool [AWS SCT])
+        5. Identify AWS network services.
+            a. Knowledge of:
+                i. AWS network services
+            b. Skills in:
+                i. Identifying the components of a VPC (for example, subnets, gateways)
+                ii. Understanding security in a VPC (for example, network ACLs, security groups)
+                iii. Understanding the purpose of Amazon Route 53
+                iv. Identifying edge services (for example, CloudFront, Global Accelerator)
+                v. Identifying network connectivity options to AWS (for example AWS VPN, Direct Connect)
+        6. Identify AWS storage services.
+            a. Knowledge of:
+                i. AWS storage services
+            b. Skills in:
+                i. Identifying the uses for object storage
+                ii. Recognizing the differences in Amazon S3 storage classes
+                iii. Identifying block storage solutions (for example, Amazon Elastic Block Store [Amazon EBS], instance store)
+                iv. Identifying file services (for example, Amazon Elastic File System [Amazon EFS], Amazon FSx)
+                v. Identifying cached file systems (for example, AWS Storage Gateway)
+                vi. Understanding use cases for lifecycle policies
+                vii. Understanding use cases for AWS Backup
+        7. Identify AWS artificial intelligence and machine learning (AI/ML) services and analytics services.
+            a. Knowledge of:
+                i. AWS AI/ML services
+                ii. AWS analytics services
+            b. Skills in:
+                i. Understanding the different AI/ML services and the tasks that they accomplish (for example, Amazon SageMaker, Amazon Lex, Amazon Kendra)
+                ii. Identifying the services for data analytics (for example, Amazon Athena, Amazon Kinesis, AWS Glue, Amazon QuickSight)
+        8. Identify services from other in-scope AWS service categories.
+            a. Knowledge of:
+                i. Application integration services of Amazon EventBridge, Amazon Simple Notification Service (Amazon SNS), and Amazon Simple Queue Service (Amazon SQS)
+                ii. Business application services of Amazon Connect and Amazon Simple Email Service (Amazon SES)
+                iii. Customer engagement services of AWS Activate for Startups, AWS IQ, AWS Managed Services (AMS), and AWS Support
+                iv. Developer tool services and capabilities of AWS AppConfig, AWS Cloud9, AWS CloudShell, AWS CodeArtifact, AWS CodeBuild, AWS CodeCommit, AWS CodeDeploy, AWS CodePipeline, AWS CodeStar, and AWS X-Ray
+                v. End-user computing services of Amazon AppStream 2.0, Amazon WorkSpaces, and Amazon WorkSpaces Web
+                vi. Frontend web and mobile services of AWS Amplify and AWS AppSync
+                vii. IoT services of AWS IoT Core and AWS IoT Greengrass
+            b. Skills in:
+                i. Choosing the appropriate service to deliver messages and to send alerts and notifications
+                ii. Choosing the appropriate service to meet business application needs
+                iii. Choosing the appropriate service for AWS customer support
+                iv. Choosing the appropriate option for business support assistance
+                v. Identifying the tools to develop, deploy, and troubleshoot applications
+                vi. Identifying the services that can present the output of virtual machines (VMs) on end-user machines
+                vii. Identifying the services that can create and deploy frontend and mobile services
+                viii. Identifying the services that manage IoT devices
+    D. Domain 4 (16%): Billing and Pricing
+        1. Compare AWS pricing models.
+            a. Knowledge of:
+                i. Compute purchasing options (for example, On-Demand Instances, Reserved Instances, Spot Instances, Savings Plans, Dedicated Hosts, Dedicated Instances, Capacity Reservations)
+                ii. Data transfer charges
+                iii. Storage options and tiers
+            b. Skills in:
+                i. Identifying and comparing when to use various compute purchasing options
+                ii. Describing Reserved Instance flexibility
+                iii. Describing Reserved Instance behavior in AWS Organizations
+                iv. Understanding incoming data transfer costs and outgoing data transfer costs (for example, from one Region to another Region, within the same Region)
+                v. Understanding different pricing options for various storage options and tiers
+        2. Understand resources for billing, budget, and cost management.
+            a. Knowledge of:
+                i. Billing support and information
+                ii. Pricing information for AWS services
+                iii. AWS Organizations
+                iv. AWS cost allocation tags
+            b. Skills in:
+                i. Understanding the appropriate uses and capabilities of AWS Budgets, AWS Cost Explorer, and AWS Billing Conductor
+                ii. Understanding the appropriate uses and capabilities of AWS Pricing Calculator
+                iii. Understanding AWS Organizations consolidated billing and allocation of costs
+                iv. Understanding various types of cost allocation tags and their relation to billing reports (for example, AWS Cost and Usage Report)
+        3. Identify AWS technical resources and AWS Support options.
+            a. Knowledge of:
+                i. Resources and documentation available on official AWS websites
+                ii. AWS Support plans
+                iii. Role of the AWS Partner Network, including independent software vendors and system integrators
+                iv. AWS Support Center
+            b. Skills in:
+                i. Locating AWS whitepapers, blogs, and documentation on official AWS websites
+                ii. Identifying and locating AWS technical resources (for example AWS Prescriptive Guidance, AWS Knowledge Center, AWS re:Post)
+                iii. Identifying AWS Support options for AWS customers (for example, customer service and communities, AWS Developer Support, AWS Business Support, AWS Enterprise On-Ramp Support, AWS Enterprise Support)
+                iv. Identifying the role of Trusted Advisor, AWS Health Dashboard, and the AWS Health API to help manage and monitor environments for cost optimization
+                v. Identifying the role of the AWS Trust and Safety team to report abuse of AWS resources
+                vi. Understanding the role of AWS Partners (for example AWS Marketplace, independent software vendors, system integrators)
+                vii. Identifying the benefits of being an AWS Partner (for example, partner training and certification, partner events, partner volume discounts)
+                viii. Identifying the key services that AWS Marketplace offers (for example, cost management, governance and entitlement)
+                ix. Identifying technical assistance options available at AWS (for example, AWS Professional Services, AWS Solutions Architects)
+    E. Where to take the exam? Pearson Vue
+    F. Grading: 70% or higher (700/1000)
+
+Cloud Foundations
+I. What is Cloud Computing? (Answered by [___])
+    A. [Cloud Vikings] Cloud computing enables convenient, remote, on-demand access, to a shared pool of computer resources and services.
+    B. [AWS] Cloud computing is the on-demand delivery of IT resources over the Internet with pay-as-you-go pricing. Instead of buying, owning, and maintaining physical data centers and servers, you can access technoloagy services, such as computing power, storage, and databases, on an as-needed basis from a cloud provider like Amazon Web Services (AWS).
+    C. [NIST] Cloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources that can be rapidly provisioned and released with minimal management effort or service provider interaction. This cloud model is composed of five essential characteristics, three service models, and four deployment models. 
+        1. (Essential Characteristics) On-demand self-service, broad network access, resource pooling, rapid elasticity, and measured service.
+            a. On-demand self-service - the ability to create IT resources, such as compute, storage, and databases yourself, without the need to interact with other humans to do the work
+            b. Broad network access - the cloud resources are available to us over a network and are accessible through standard protocols
+            c. Resource pooling - [the cloud resources are available to us over a network and are accessible through standard protocols]
+            d. Rapid elasticity - the ability to quickly scale your cloud resources based on changing demands
+            e. Measured service - the cloud provider has automated systems to provide transparent billing details about the cloud resources you are consuming. Allowing you, as the customer, to have monitoring and reporting capabilities of these cloud resources.
+        2. (Service Models) Software as a Service (SaaS), Platform as a Service (PaaS), and Infrastructure as a Service (IaaS).
+            a. IaaS - on-premise is whole control, set up VMs to run apps and other software, more control
+            b. PaaS - everything set up for you, just run the application, less control
+            c. SaaS - application is run for you, just decide how to use and remote access it, no control
+        3. (Deployment Models) Private cloud, Community cloud, Public cloud, and Hybrid cloud.
+            a. Private cloud - exclusive use by a single organization
+                i. Benefits: Control, Cost, Hardware Choice, Software Licenses (Hardware based/locked), Security
+            b. Community cloud - exclusive use by a specific community of consumers
+            c. Public cloud - open use by the general public
+                i. Benefits: Scalability, Cost savings, Speed, Global capability
+                ii. Capital Expenses (CapEx) -> Operational expenses (OpEx) beneficial for smaller companies
+                iii. Other Benefits: Pay-as-you-Go, Agility, On-Demand, Infinite Scale, Experimentation, Low-cost experiments, Security
+            d. Hybrid cloud - composed of two or more distinct cloud infrastructures (private, community, or public)
+                i. Multi-cloud - easier transportability but less discounts if spread over multiple cloud infrastructures
+                ii. Benefits: Use existing infrastructure, Cost savings, security requirements
+
+Domain 1: Cloud Concepts
+I. Six Benefits of AWS (Selling points)
+    A. Security
+        1. Build your workloads on the most secure custom build cloud infrastructure
+        2. Keep your data safe
+        3. Meet compliance requirements
+        4. Save money
+        5. Scale quickly
+    B. Availability & Reliability
+        1. The highest network availability of any cloud provider
+    C. Performance
+        1. High performance global network, massive scale in minutes
+    D. Scalability
+        1. Scale your infrastructure to your business needs, no more constraints or wasted resources
+    E. Global Footprint
+        1. Deploy infrastructure across AWS global regions as needed to best serve your business and customers
+    F. Flexibility
+        1. Choose how and where to run your workloads
+II. Six Advantages of Cloud Computing
+    A. Trade Capital expenses for variable expenses (CapEx->OpEx)
+    B. Benefit from massive economies of scale (wholesale discounts)
+    C. Stop Guessing Capacity (dynamic vs static)
+    D. Increase Speed and Agility (Quick testing rather than wait for shipping)
+    E. Stop spending money running data centers (Expensive!!)
+    F. Go global in minutes (AWS has their own data centers and regions)
+III. AWS Well-Architected and the Six pillars (https://aws.amazon.com/architecture/well-architected/?wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc&wa-guidance-whitepapers.sort-by=item.additionalFields.sortDate&wa-guidance-whitepapers.sort-order=desc)
+    A. Oprational Excellence Pillar
+    B. Security Pillar
+    C. Reliability Pillar
+    D. Performance Efficiency Pillar
+    E. Cost Optimization Pillar
+    F. Sustainability Pillar
+IV. TCO Analysis - the role of OpEx (Operational Expenses)
+    A. Salaries for
+        1. Project Management
+        2. Accounting Team
+        3. Procurement Team
+        4. Eng Teams
+    B. Various meetings, time and people involved
+        1. Change Management
+        2. Compliance Teams
+        3. Datacenter Techs
+        4. Capacity Teams
+        5. 24x7 NOC
+V. Software Licensing for the cloud
+    A. Questions to consider:
+        1. Does the software license allow it to run in the public cloud or is it a limitation that needs to run on dedicated on-premise equipment?
+        2. Is the license based on the number of CPU sockets or processor cores of the host the software is installed on?
+        3. Does the license allow the software to run on virtualized hardware? How does that impact the license pricing?
+        4. Do I need a dedicated host in the cloud to install the software on?
+        5. Can you bring your own license?
+
+Module 2: Compute in the Cloud
+I. Introduction: Amazon Elastic Compute Cloud (Amazon EC2)
+    A. Multitenancy: Sharing underlying hardware between virtual machines
+    B. Virtical scaling - giving instances more memory or CPU
+    C. You control the networking aspect of Amazon EC2
+    D. Compute as a Service (CaaS)
+II. Amazon EC2 Instance Types
+    A. Each Amazon EC2 instance type is grouped under an instance family
+        1. General purpose
+            a. Balanced resources
+            b. Diverse workloads
+            c. Web servers
+            d. Code repositories
+        2. Compute optimized
+            a. Compute intensive tasks
+            b. Gaming servers
+            c. High performance computing (HPC)
+            d. Scientific modeling
+        3. Memory optimized
+            a. Memory intensive tasks
+        4. Accelerated computing
+            a. Floating point number calculations
+            b. Graphics processing
+            c. Data pattern matching
+            d. Utilize hardware accelerators
+        5. Storage optimized
+            a. High performance for locally stored data
+III. Amazon EC2 Pricing
+    A. Amazon EC2 purchase options
+        1. On-Demand (under 1 year) - short-term irregular workloads that cannot be interrupted
+        2. Savings Plans (1 or 3 year plan) - hourly spend commitment to an instance family and Region [72% off On-Demand]
+        3. Reserved Instances (1 or 3 year plan) -  up front stated instance type, size, OS, and tenancy (Standard) or if you need to run in different Availiability Zones or different instance types (Convertible)
+        4. Spot Instances - flexible start and end times, and can withstand interruptions [90% off On-Demand]
+        5. Dedicated Hosts - most expensive physical servers with Amazon EC2 capacity that is fully dedicated to your use
+    B. For example, if your use case can withstand interruptions, you can save with Spot Instances. You can also save by committing early and locking in a minimum level of use with Reserved Instances.
+IV. Scaling Amazon EC2
+    A. Scalability and Elasticity
+        1. Scalability involves beginning with only the resources you need and designing your architecture to automatically respond to changing demand by scaling out or in.
+    B. Amazon EC2 Auto Scaling
+        1. Dynamic scaling - responds to changing demand
+        2. Predictive scaling - automatically schedules the right number of Amazon EC2 instances based on predicted demand
+    C. Example: Application launch
+        1. Minimum capacity: 1 instance
+        2. Desired capacity: 2 instances
+        3. Maximum capacity: 4 instances
+        4. Leaving 2 instances to scale as needed (during peak traffic)
+V. Directing Traffic with Elastic Load Balancing
+    A. Load balancer acts as a single point of contact for all incoming web traffic to your Auto Scaling group (Host of the coffee shop - direct traffic)
+    B. Properly distrubte traffic
+        1. High performance
+        2. Cost-efficient
+        3. Highly available
+        4. Automatically scalable
+    C. Elastic Load Balancing
+        1. Regional construct
+VI. Messaging and Queuing
+    A. Tightly coupled architecture: When one application goes down, other fails soon after
+    B. Loosely coupled architecture: Single failure won't cause cascading failures
+        1. Amazon Simple Queue Service (Amazon SQS) - Where messages are placed until they are processed
+            a. Send messages
+            b. Store messages
+            c. Receive messages
+            d. Between software components
+            e. At any volume
+            f. "Payload": data contained within a message
+        2. Amazon Simple Notification Service (Amazon SNS) topic - a channel for messages to be delivered, a publish/subscribe service
+            a. Send one message to SNS
+            b. SNS sends notifications to all end users or endpoints
+            c. Customers/Clients can opt for certain topics to be "subscribed" to and others to be omitted from
+    C. Monolithic applications and Microservices
+        1. Tighly coupled components inside the monolithic application
+        2. Components communicate with each other to transmit data, fulfill requests and keep the application running
+        3. In a monolithic application, when one component fails to communicate, the rest fail too.
+        4. In a microservice approach, components are loosely coupled which prevents the entire application from failing.
+VII. Additional Compute Services
+    A. Serverless: You cannot see or access the underlying infrastructure
+        1. AWS Lambda - waits for triggered event to activate the Lambda function
+        2. Run time < 15 minutes
+    B. Container Orchestration Tools
+        1. Amazon Elastic Container Service (Amazon ECS)
+            a. Supports Docker containers
+            b. Docker is a software platform that enables you to build, test, and deploy applications quickly
+        2. Amazon Elastic Kubernetes Service (Amazon EKS)
+            a. run Kubernetes on AWS
+            b. Kubernetes is open-source software that enables you to deploy and manage containerized applications at scale.
+        3. Container: A package for your code
+        4. Cluster: A group of EC2 Instances
+    C. Serverless computer Platform
+        1. AWS Fargate: a serverless compute engine for containers
+    D. Use Amazon EC2 if your Compute Services include...
+        1. Host traditional applications
+        2. Full access to the OS
+    E. Use AWS Lambda if your Compute Services include...
+        1. Host short running functions
+        2. Service-oriented applications
+        3. Event driven applications
+        4. No provisioning or managing servers
+    F. Compute Services
+        1. Run Docker container-based workloads on AWS
+        2. Amazon ECS or Amazon EKS
+        3. Amazon EC2 that you manage or AWS Fargate that is managed for you
+VIII. Module 2 Summary
+    A. Cloud Computing: The on-demand delivery of IT resources over the internet with pay-as-you-go pricing
+    B. Amazon Elastic Compute Cloud (Amazon EC2) - dynamically spin up and spin down virtual servers called EC2 instances
+        1. Instance families - general purpose, compute optimized, memory optimized, accelerated computing, storage optimized
+    C. Amazon EC2 Auto Scaling: Automated horizontal scaling or duplicating more EC2 instances
+    D. Elastic Load Balancer - to distribute traffic to each EC2 instance
+    E. Amazon EC2 billing options
+        1. On-Demand, Spot instances, Reserved Instances, Savings Plans
+    F. Messaging Services:
+        1. Amazon Simple Queue Service (Amazon SQS) - decouple system components
+        2. Amazon Simple Notification Service (Amazon SNS) - send messages like emails, text messages, push notifications or HTTP requests
+    G. Container (orchistration) Services for managing your EC2 instances:
+        1. Amazon Elastic Container Service (Amazon ECS)
+        2. Amazon Elastic Kubernetes Service (Amazon EKS)
+    H. Serverless (no management needed):
+        1. AWS Fargate
+        2. AWS Lambda
+
+Module 3: Global Infrastructure and Reliability
+I. Introduction
+    A. High availability and fault tolerance
+    B. Regions
+II. AWS Global Infrastructure
+    A. Data centers: where "stuff" is stored
+    B. Regions
+        1. Multiple data centers
+        2. Connected by a High Speed Fiber Network
+        3. Security: data doesn't move unless explicitly told to move
+    C. 4 Business factors that influence how you choose your Region
+        1. Compliance requirements - regulatory control that dictates where you can run your business
+        2. Proximity - how close you are to your customer based
+            a. Latency: the time it takes for data to be sent and received
+        3. Feature availability - what features are available in your region?
+            a. Amazon Braket - new quantum computing Platform
+        4. Pricing - transparent granular pricing given by AWS
+            a. Tax affects costs to operate (e.g. Brazil 50% more than USA)
+    D. Availability Zone: a group of data centers located tens of miles apart from each other
+        1. What happens in case of a disaster?
+        2. Run across at least two Availability Zones in a Region
+        3. Elastic Load Balancing is a Regional construct
+        4. Regionally scoped service
+III. Edge Locations
+    A. Content Delivery Network (CDN)
+        1. Amazon Cloudfront: a service that helps deliver data, video, applications, and APIs to customers around the world with low latency and high transfer speeds
+        2. Edge location: a site that Amazon CloudFront uses to store cached copies of your content closer to your customers for faster delivery
+    B. Amazon Route 53: direct customers to the correct web locations with reliably low latency
+    C. AWS Outposts: install a fully operational mini Region, right inside your own data center
+    D. Key points
+        1. Regions are geographically isolated areas.
+        2. Regions contain Availability Zones.
+        3. Edge locations run Amazon CloudFront.
+IV. How to Provision AWS Resources
+    A. API: Application programming interface
+        1. Everything AWS related is done through API calls.
+    B. Interacting with AWS services
+        1. AWS Management Console: a web-based interface for acessing and managing AWS services
+            a. Test environments
+            b. View AWS bills
+            c. View monitoring
+            d. Work with non-technical resources
+        2. AWS Command Line Interface (CLI): Make API calls using the terminal on your machine
+        3. AWS Software Development Kits (SDKs): Interact with AWS resources through various programming languages
+        4. Various other tools
+            a. AWS Elastic Beanstalk: a service that helps you provision Amazon EC2-based environments
+                1. Provide application code and desired configurations, and AWS Elastic Beanstalk will build the environment for you
+                2. Helps you to focus on your business application, not the infrastructure
+            b. AWS CloudFormation: Infrastructure as code tool used to define a wide variety of AWS resources in a declarative way using JSON or YAML text-based documents
+                1. Storage
+                2. Database
+                3. Analytics
+                4. Machine Learning
+    C. Provisioning a resource
+        1. Log in to the AWS Management Console
+        2. Write commands
+        3. Write programs
+V. Module 3 Summary
+    A. AWS Global Infrastructure
+        1. Availability Zones
+        2. Regions
+        3. Deploy infrastructure across at least 2 Availability Zones
+            a. Elastic Load Balancing
+            b. Amazon Simple Queue Service (Amazon SQS)
+            c. Amazon Simple Notification Service (Amazon SNS)
+        4. Edge Locations
+        5. AWS Outposts
+    B. Provisioning AWS resources
+        1. AWS Management Console
+        2. SDKs
+        3. CLI
+        4. AWS Elastic Beanstalk
+        5. AWS CloudFormation
+
+Module 4: Networking
+I. Introduction 
+    A. Amazon Virtual Private Cloud (Amazon VPC) - lets you provision a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define
+    B. Public facing subnet - internet access
+    C. Private facing subnet - no internet access, for backend services like databases or application servers
+    D. Subnets are a range of IP addresses in your VPC
+II. Connectivity to AWS
+    A. Virtual Private Cloud (VPC) - your own private network in AWS
+    B. Subnet: a section of a VPC that can contain resources such as Amazon EC2 instances
+    C. Public Traffic
+        1. Internet Gateway (IGW) - a doorway that is open to the public
+    D. Private Traffic
+        1. Virtual Private Gateway - VPN connection between a private network to your VPC
+    E. AWS Direct Connect - establish a completely private dedicated fiber connection from your data center to AWS
+III. Subnets and Network Access Control Lists
+    A. AWS improve security methods
+        1. Network hardening
+            a. Packet: messages from the internet
+            b. Network access control list (Network ACL) - inside VPC level security or "Passport control officer"
+                i. Stateless (must check every time) and allows all inbound and outbound traffic by default
+            c. Security Group - inside subnet level security or "Door attendant/bouncer"
+                i. Stateful (remembers who is allowed) and denies all inbound traffic by default
+            d. Example: Packet from one subnet to another within a VPC
+                i. EC2 Instance A border (SG allows ALL exit traffic) -> SUBNET 1 (checks N. ACL) -> SUBNET 2 (checks N. ACL) -> EC2 Instance B (checks SG)
+                ii. [Return] EC2 Instance B (SG allows ALL exit traffic) -> SUBNET 2 (checks N. ACL) -> SUBNET 1 (checks N. ACL) -> EC2 Instance A (SG remembers approval)
+        2. Application security
+        3. User identity
+        4. Authentication and authorization
+        5. Distributed denial of service prevention
+        6. Data integrity
+        7. Encryption
+IV. Global Networking
+    A. Amazon Route 53 - Amazon's Domain Name Service (DNS)
+    B. Amazon Route 53 routing policies:
+        1. Latency-based routing
+        2. Geolcation DNS
+        3. Geoproximity routing
+        4. Weighted round robin
+    C. Amazon CloudFront
+        1. Content Delivery Network (CDN): A network that delivers edge content to users based on their geographic location
+V. Module 4 Summary
+    A. Who should be allowed to communicate with each other?
+    B. Amazon Virtual Private Cloud - isolate workloads
+    C. Gateways, Network ACLs, and Security groups - allows healthy traffic access while dropping subversive attacks before they reach your instance
+    D. VPN and Direct Connect - secure pipelines that are either encrypted over the general internet or exclusive fiber
+    E. Edge Locations - Global networks provided by AWS
+    F. Route 53 for DNS
+    G. Amazon CloudFront - cache content closer to your actual consumers
+
+Module 5: Storage and databases
+I. Introduction
+    A. Databases and storage
+II. Instance Stores and Amazon Elastic Block Store (Amazon EBS)
+    A. Block-level storage 
+        1. Databases
+        2. Enterprise Software
+        3. File systems
+    B. Types of Block-level Storage
+        1. Instance store volumes: disk storage that is physically attached to the host computer for an EC2 instance, and will be lost at instance termination/stopped
+            a. Temporary files 
+            b. Scratch data 
+            c. data that can be easily recreated without consequences
+    C. Amazon Elastic Block Store (Amazon EBS)
+        1. Create virtual hard drives (EBS volumes)
+            a. Size
+            b. Type
+            c. configurations
+            d. Attach to EC2 instance
+        2. Snapshots: Incremental backups
+III. Amazon Simple Storage Service (Amazon S3)
+    A. Amazon S3: Store and retrieve an unlimited amount of data
+        1. Store data as objects (data, metadata, and key).
+        2. Store objects in buckets.
+        3. Upload a maximum object size of 5 TB.
+        4. Version objects.
+        5. Create multiple buckets.
+    B. Amazon S3 Standard
+        1. 99.99999999% of durability (1 year)
+        2. Amazon S3 static website hosting
+            a. Coffee blog
+    C. Amazon S3 Standard-Infrequent Access (S3 Standard-IA)
+        1. Backups, Disaster recover files, or any object that requires long-term storage
+    D. Amazon S3 Glacier Flexible Retrieval
+        1. Archive data in Vaults
+        2. S3 Glacier vault lock policy (for a specified period of time)
+            a. Write once/read many (WORM)
+    E. Amazon S3 Lifecycle management: Move data automatically between tiers
+    F. Other storage classes
+        1. S3 One Zone-Infrequent Access
+        2. S3 Glacier Instant Retrieval
+        3. S3 Glacier Deep Archive
+    G. Comparing Amazon EBS and Amazon S3
+        1. Amazon Elastic Block Store (Amazon EBS)
+            a. Sizes up to 16 TiB
+            b. Survive termination of their EC2 instance
+            c. Solid state by default
+            d. HDD options
+        2. Amazon Simple Storage Service (Amazon S3)
+            a. Unlimited storage
+            b. Individual objects up to 5 troubleshoot
+            c. Write once/read many
+            d. 99.9999999999% durability
+        3. Round 1: Photo analysis website, thousands of images that need to be viewed by users
+            a. Amazon S3 wins!
+                i. Web enabled - already hosted on the web
+                ii. Regionally Distributed - no backup needed
+                iii. Offers cost savings
+                iv. Serverless - no Amazon EC2 instances needed
+        4. Round 2: 80 GB video file with constant editing
+            a. Object storage: treats any file as a complete, discreet object
+                i. Requires reuploading the entire video after every edit
+            b. Block storage: breaks files down to small component parts or blocks
+                i. The edited part corresponds to bits which are modified, not the entire video
+            c. EBS wins!
+        5. Fewer modifications - Amazon S3
+        6. Many modifications - Amazon EBS
+IV. Amazon Elastic File System (Amazon EFS)
+    A. Amazon EFS: Multiple instances can access the data in EFS at the same time.
+        1. File storage: multiple clients (such as users, applications, servers, and so on) can access data that is stored in shared file folders
+    B. Amazon EBS:
+        1. Volumes attach to EC2 instances
+        2. Availability Zone level resource (stored in only 1 availability zone)
+        3. Need to be in the same Availability Zone to attach EC2 instances
+        4. Volumes do not automatically scale
+    C. Amazon EFS:
+        1. Multiple instances reading and writing simultaneously
+        2. Linux file system
+        3. Regional resource (stored in multiple availability zones)
+        4. Automatically scales
+V. Amazon Relational Database Service (Amazon RDS)
+    A. Relational Database management system (RDBMS)
+        1. data is stored in a way that relates it to other pieces of data
+    B. AWS supported databases
+        1. MySQL
+        2. PostgreSQL
+        3. Oracle
+        4. Microsoft SQL Server
+        5. MariaDB
+        6. Amazon Aurora
+    C. Lift-and-Shift migration
+    D. Amazon Relational Database Service (Amazon RDS)
+        1. Automated patching
+        2. Backups
+        3. Redundancy
+        4. Failover
+        5. Disaster recovery
+    E. Amazon Aurora (Enterprise-class relational database)
+        1. MySQL
+        2. PostgreSQL
+        3. 1/10th the cost of commercial databases
+        4. Data replication
+        5. Up to 15 read replicas
+        6. Contininuous backup to Amazon S3
+        7. Point-in-time recovery
+VI. Amazon DynamoDB
+    A. A serverless database
+    B. A non-relational NoSQL database
+        1. Structural approach like key-value pairs rather than rows and columns
+    C. Purpose Built - specific use cases
+    D. Fully managed
+    E. Highly scalable - automatic scaling to adjust for changes in capacity
+    F. Comparing Amazon RDS and Amazon DynamoDB
+        1. Amazon RDS
+            a. Automatic high availability; recovery provided
+            b. Customer ownership of data
+            c. Customer ownership of Schema
+            d. Customer control of network
+        2. Amazon DynamoDB
+            a. Key-value
+            b. Massive throughput capabilities
+            c. PB size potential
+            d. Granular API access
+        3. Round 1: Sales supply chain management system that you have to analyze for weak spots 
+            a. RDS is built for business analytics
+            b. Complex relational joins
+            c. RDS wins!
+        4. Round 2: Employee contact list (names, phone numbers, emails, employee IDs)
+            a. Single table of employee data
+            b. Not utilizing relational database functionality, creates overhead and languages
+            c. DynamoDB wins in most other cases!
+VII. Amazon Redshift
+    A. Data warehouses - looking for historical data, or information that won't change and is set in the past 
+    B. Amazon Redshift: a data warehousing service that you can use for big data analytics
+VIII. Amazon Database Migration Service
+    A. Amazon Database Migration Service (Amazon DMS)
+        1. The source database remains fully operational during the migration.
+        2. Downtime is minimized for applications that rely on that database.
+        3. The source and target databases don't have to be of the same type.
+    B. Homogenous databases
+        1. Schema structures (match)
+        2. Data types (match)
+        3. Database code (match)
+    C. Heterogeneous databases
+        1. Schema structures, data types, and database code don't match.
+        2. 2-step process: 
+            a. AWS Schema Conversion Tool to convert schema structures and database code to target database.
+            b. DMS to migrate the data from the source database to the target database.
+    D. Development and test database migration
+        1. For testing against production data without affecting production users
+    E. Database consolidation: combining multiple databases into one larger database
+    F. Continuous database replication: replicate data for disaster recovery or geographic separation
+IX. Additional Database Services
+    A. Choosing the right database
+        1. There is no one-size-fits-all database for all purposes.
+    B. Amazon DocumentDB (with MongoDB compatibility): a full content management system, catalogs, user profiles
+    C. Amazon Neptune: a graph database for tracking social webs (who is connected to who)
+    D. Amazon Managed Blockchain: tracking supply chain or banking records with 100% immutability
+        1. Blockchain: a distributed ledger system that lets multiple parties run transactions and share data without a central authority
+    E. Amazon Quantum Ledger Database (Amazon QLDB): An immutable system of record where any entry can never be removed from the audits.
+    F. Database accelerators - reduce read times of common requests
+        1. Amazon ElastiCache: provide caching layers, supports Memcached and Redis data stores
+        2. Amazon DynamoDB Accelerator (DAX): native caching layer for DynamoDB
+X. Module 5 Summary
+    A. Amazon Elastic Block Store (Amazon EBS): local storage that is not ephemeral
+    B. Amazon Simple Storage Service (Amazon S3): store objects with a click or API call
+    C. Amazon DynamoDB: non-relational database using key-value pairs
+    D. Amazon Elastic File System (Amazon EFS): file storage use cases
+    E. Amazon Redshift: data warehousing
+    F. AWS Database Migration Service (AWS DMS): aid in migration of existing databases
+    G. Other Storage Services
+        1. Amazon DocumentDB
+        2. Amazon Neptune
+        3. Amazon QLDB
+        4. Amazon Managed Blockchain
+        5. Amazon ElastiCache
+        6. Amazon DynamoDB Accelerator (DAX)
+
+Module 6: Security
+I. Introduction
+    A. AWS Shared Responsibility Model
+        1. Customer
+            a. Responsible for security "in" the cloud
+            b. Customer Data 
+                i. Platform, applications, identity and access management
+                ii. Operating system, network and firewall configuration
+                iii. Client-side data encryption / Server-side data encryption / Network traffic protection
+        2. AWS
+            a. Responsible for security "of" the cloud
+            b. AWS Foundation Services
+                i. Compute / Storage / Database / Networking
+                ii. AWS global infrastructure - Regions, Edge locations, Availability Zones
+II. AWS Shared Repsonsibility Model
+    A. Both (AWS and the customer) are responsible for making sure that you are secure.
+    B. EC2 instance example
+        1. AWS responsible for
+            a. Physical
+            b. Network
+            c. Hypervisor
+        2. Cusomter responsbile for
+            a. Operating System
+            b. Application
+            c. Data
+    C. Security *OF* the cloud (AWS)
+    D. Security *IN* the cloud (Customer)
+III. User Permissions and Access
+    A. AWS account root user: the owner of the AWS account and has permission to do anything they want inside of that account
+        1. Access and control any resource in the account
+        2. Multi-factor Authentication (MFA)
+    B. AWS Identity and Access Management (AWS IAM): authentication and authorization as a service
+        1. By default, has no permissions, not even to login.
+        2. Principle of least privilege: A user is granted access only to what they need.
+        3. IAM policy: a JSON document that describes what API calls a user can or cannot Make
+            a. Example:
+            {
+                "Version": "2012-10-17",
+                "Statement": {
+                    "Effect": "Allow",
+                    "Action": "s3:ListBucket",
+                    "Resource": "arn:aws:s3:::coffee_shop_reports"
+                }
+            }
+            b. "Effect": Allow or deny
+            c. "Action": Any AWS API call
+            d. "Resource": Which AWS resource the API call is for
+        4. IAM Groups - you can attach a policy to a group, which apply to all users in the group
+    C. AWS IAM
+        1. Root user
+        2. Users
+        3. Groups
+        4. Policies 
+        5. Roles
+            a. Associated permissions
+            b. Allow or deny
+            c. Assumed for temporary amounts of time 
+            d. No username and password
+            e. Access to temporary permissions
+                i. AWS resources
+                ii. Users
+                iii. External identities
+                iv. applications
+                v. Other AWS services
+IV. AWS Organizations
+    A. AWS Organizations: A central location to manaage multiple AWS accounts
+        1. Centralized management
+        2. Consolidated billing - pay using primary account, bulk discounts
+        3. Hierarchical groupings of accounts - Orgnizational Units (OU), Business Units (BU0) 
+        4. AWS service and API actions access control
+            a. Service control policies (SCPs) - specify the maximum permissions for member accounts in the organization
+V. Compliance
+    A. General Data Protection Regulation (GDPR) - software that deals with consumer data in the Evaluating
+    B. Health Insurance Portability and Accountability Act (HIPAA) - healthcare applications in the US
+    C. AWS Artifact: a service that provides on-demand access to AWS security and compliance reports and select online agreements
+        1. AWS Artifact Agreements
+        2. AWS Artifact Reports 
+    D. AWS Customer Compliance Center - find compliance information
+        1. AWS Risk and Security whitepapers
+VI. Denial-of-Service attacks
+    A. Distributed denial-of-service (DDoS) - attack on enterprise infrastructure
+        1. Objective - to shut down your application's ability to function by overwhelming the system to the point it can no longer operate
+    B. UDP Flood - Bad actor sends a simple request but gives fake return address to "flood" your server with information it never wanted
+        1. Solution - Security Groups denies foreign information that they did not request
+    C. HTTP Level Attacks - using bots to make complex requests/searches, so real customers cannot make theirs
+    D. Slowloris Attack - exhaust front end capacity by giving the entire packet really slowly (like a bad connection)
+        1. Solution - Elastic Load Balancer handles the http traffic request first and waits for the entire message before sending it to frontend web server
+    E. AWS Shield with AWS WAF - uses a web application firewall to filter incoming traffic for the signatures of bad actors
+        1. AWS Shield Standard - automatically protects all AWS customers at no cost
+        2. AWS Shield Advanced - a paid service that provides detailed attack diagnostics and the ability to detect and mitigate sophisticated DDoS attacks
+VII. Additional Security Services
+    A. Encryption: Securing a message or data in a way that only authorized parties can access it 
+        1. Encryption at rest - Encrypts data when it is idle
+            a. DynamoDB table integrates with AWS Key Management Service (AWS KMS) to manage the encryption key used to encrypt the table
+        2. Encryption at transit - Encrypts data traveling between AWS and client or another AWS
+            a. Amazon Redshift -> SQL Client - Uses Secure Sockets Layer (SSL) connections to encrypt the data and use service certificates to validate and authorize a client
+    B. Amazon Inspector - checks on deviations of security best practices, exposure of EC2 instances, vulnerabilities
+        1. Network configuration reachability piece 
+        2. Amazon agent 
+        3. Security assessment service
+    C. Amazon GuardDuty - threat detection
+        1. Analyzes continueous streams of metadata generated from account and network activity
+        2. Uses integrated threat intelligence
+VIII. Module 6 Summary 
+    A. AWS Shared Responsibility Model
+        1. Customer = responsible for security "in" the cloud
+            a. Customer Data
+            b. Platform, applications, identity and access management
+            c. Operating system, network and firewall configuration
+            d. Client-side data encryption / Server-side data encryption / Network traffic protection
+        2. AWS - responsible for security "of" the cloud
+            a. Compute / Storage / Database / Networking
+            b. AWS Global infrastructure
+                i. Regions
+                ii. Edge locations
+                iii. Availability Zones
+    B. AWS IAM
+        1. Users - by default have no permissions
+        2. Groups - groups of users
+        3. Roles - identities and permissions given to users for a temporary amount of time
+        4. Policies - allow/deny a specific action in AWS
+        5. Identity federation - role based access, and one login for corporate and AWS systems
+        6. Multi-factor authentication - especially for root user, extra security
+    C. AWS Organizations
+        1. Helps you manage multiple accounts into teams and environments
+        2. Hierarchical
+    D. Compliance
+        1. AWS Compliance Center
+        2. AWS Artifact
+    E. DDoS attacks: Distributed Denial-of-service
+        1. ELB
+        2. Security Groups
+        3. AWS Shield
+        4. AWS WAF
+    F. Encryption
+        1. in transit
+        2. at rest
+    G. The top priority of AWS is security.
+        1. Use the least privilege principle when scoping permissions for users and roles in IAM.
+
+Module 7: Monitoring and Analytics
+I. Introduction
+    A. Monitoring: Observing systems, collecting metrics, and then using data to make decisions
+II. Amazon CloudWatch
+    A. Metrics: Variables tied to your resources
+    B. Amazon CloudWatch Alarm - set threshold metric to set when to trigger an action
+    C. CloudWatch Dashboard - screen that lists out metrics in near real time
+    D. Amazon CloudWatch: a web service that enables you to monitor and manage various metrics and configure alarm actions based on data from those metrics
+        1. Access all your metrics from a central location. 
+        2. Gain visibility into your applications, infrastructure, and services.
+        3. Reduce mean time to resolution (MTTR) and improve total cost of ownership (TCO).
+        4. Drive insights to optimize applications and operational resources.
+III. AWS CloudTrail
+    A. Every request gets logged in the CloudTrail engine.
+    B. Records API calls for you account.
+    C. Keeps track of answers to the following questions:
+        1. What happened?
+        2. Who made the request?
+        3. When did this occur?
+        4. How was the request made?
+    D. CloudTrail Insights
+        1. allows CloudTrail to automatically detect unusual API activities in your AWS account
+IV. AWS Trusted Advisor 
+    A. Cost optimization - where can you save money
+    B. Performance - checks throughput capability
+    C. Security - checks for MFA, weak passwords, security groups, etc.
+    D. Fault tolerance - checks if you have made backups
+    E. Service limits - informs you of when you are hitting a limit
+V. Module 7 Summary
+    A. Amazon CloudWatch - provide near real-time understanding of how your system is behaving, including being alerted to conditions that require your attention.
+    B. AWS CloudTrail - answers all your AWS auditing questions
+    C. AWS Trusted Advisors - quick dashboard of over 40 common concers around cost, performance, security, and resilience in an actionable dashboard
+
+Module 8: Pricing and Support
+I. Introduction
+    A. Logistics and costs that come with owning a business
+II. AWS Free tiers
+    A. Always Free
+    B. 12 months Free
+    C. Trials
+        1. Amazon Inspector offers a 90-day free trial
+    D. AWS Lambda allows for 1 million free invocations per month
+    E. Amazon S3 is free for 12 months for up to 5GB of standard storage.
+    F. AWS Lightsail offers 1 month trial of up to 750 hours of usage.
+    G. AWS Free Tier services
+        1. Amazon SageMaker
+        2. AMazon Comprehend Medical
+        3. Amazon DynamoDB
+        4. Amazon SNS
+        5. Amazon Cognito
+III. AWS Pricing Concepts
+    A. How AWS Pricing WorkSpaces
+        1. Pay for what you use.
+        2. Pay less when you reserve.
+        3. Pay less with volume-based discounts when you use more.
+    B. AWS Pricing Calculator
+        1. explore AWS services and create an estimate for the cost of your use cases on AWS
+    C. AWS pricing examples
+        1. AWS Lambda  
+            a. charged based on the number of requests for your functions and the time it takes for them to run
+            b. 1 milion free requests
+            c. 3.2 million seconds of free compute time per month
+        2. Amazon EC2
+            a. pay for th compute time that you use while your instances are running
+            b. charges for each Amazon EC2 instance type that has been used, the amount of Amazon EBS storage space that has been provisioned, and the length of time that Elastic Load Balancing (ELB) has been used
+        3. Amazon S3
+            a. Storage
+            b. Requests and data retrievals
+            c. Data transfer
+            d. Management and replication
+IV. Billing Dashboard
+    A. Month-to-Date Spend by Service
+    B. Last month, current and forecasted amounts
+    C. Top Free Tier Services by Usage
+    D. Bills
+V. Consolidated billing
+    A. AWS Organizations
+        1. Consolidated Billing - one bill for all your accounts
+            a. Simplifies billing process
+            b. Share savings across accounts (bulk discounts)
+            c. Free features
+VI. AWS Budgets
+    A. Billing > Budgets > Create Budget > Choose type of budget (Cost budget) > Give it a name, and budjet amount > Configure alert (80%) > Confirm Budget > Create
+    B. Budget on cost or usage
+VII. AWS Cost Explorer: a tool that lets you visualize, understand, and manage your AWS costs and usage over time
+    A. You only pay for what you use.
+    B. Cost Explorer > Set date > Group by tags
+    C. Create custom reports
+    D. Cost optimization 
+VIII. AWS Support plans
+    A. Basic support
+        1. 24/7 customer support
+        2. documentation
+        3. whitepapers
+        4. Support forums
+        5. AWS Trusted Advisor
+        6. AWS Personal Health Dashboard
+    B. Developer support
+        1. Basic support
+        2. Email access to customer support
+    C. Business support
+        1. Basic and developer support
+        2. AWS Trusted Advisor provides full set of best practice checks
+        3. Direct phone access to cloud support engineers
+        4. Infrastructure event management
+    D. AWS Enterprise On-Ramp Support
+        1. Basic, Developer, and Business support
+        2. 30 minute response time for business critical workloads
+        3. Access to a pool of Technical Account Managers (TAMs)
+    E. AWS Enterprise Support
+        1. Basic, Developer, and Business support
+        2. 15 minute response time for business critical workloads
+        3. Designated Technical Account Manager (TAM)
+        4. Six pillars of the Well-Architected Framework
+            a. Operational Excellence
+            b. Security
+            c. Reliability
+            d. Performance Efficiency
+            e. Cost Optimization
+            f. Sustainability
+        5. Find out more: aws.amazon.com/premiumsupport
+IX. AWS Marketplace: a digital catalog that includes thousands of software listings from independent software vendors
+    A. One-click deployment - allows them to quickly procure and use products from thousands of software sellers
+    B. Pay-as-you-go options - more options to pay for the software the way you actually use it without wasted unused licenses
+    C. Enterprise focused features
+        1. Custom terms and pricing
+        2. A private Marketplace
+        3. Integration into your procurement systems
+        4. Cost management tools
+    D. Find out more: aws.amazon.com/Marketplace
+X. Module 8 Summary
+    A. Pricing and support
+        1. Pay-as-you-go
+        2. On-premises vs cloud costs
+        3. AWS Free Tier
+        4. Consolidated billing
+        5. AWS Budgets
+        6. AWS Cost Explorer
+        7. AWS Console billing
+        8. AWS support plans
+    B. AWS Marketplace
+
+Module 9: Migration and Innovation
+I. Introduction
+    A. Understand migration and innovation in the AWS Cloud.
+    B. Summarize the AWS Cloud Adoption Framework (AWS CAF).
+    C. Summarize the six key factors of a cloud migration strategy.
+    D. Describe the benefites of AWS data migration solutions, such as AWS Snowcone, AWS Snowball, and AWS Snowmobile.
+    E. Summarize the broad scope of innovative solutions that AWS offers.
+II. AWS Cloud Adoption Framework (AWS CAF)
+    A. AWS CAF perspectives - areas of focus
+        1. Business - business/financial analyst
+        2. People - HR
+        3. Governance - program managers
+        4. Platform - cloud/solutions architect
+        5. Security - IT security
+        6. Operations - IT support
+    B. AWS CAF Action Plan: Helps guide your organization for cloud migration
+III. Migration strategies
+    A. The 6 R's
+        1. Rehosting - "lift-and-shift" or moving applications without changes
+        2. Replatforming - "lift, tinker, and shift" or making a few cloud optimizations to realize a tangible Benefit
+        3. Refactoring/re-architecting - Reimagining how an application is architected and developed by using cloud-native features (most costly)
+        4. Repurchasing - moving from traditional license to a software-as-a-service model (changing product)
+        5. Retaining - keeping applications that are critical for the business in the source environment
+        6. Retiring - the process of removing applications that are no longer needed
+IV. AWS Snow family
+    A. A network with 1 Gbps speed moves 1 PB of data in about 100 days.
+    B. AWS Snowcone: a small, rugged, and secure edge computing and data transfer devices
+    C. AWS Snowball Edge: large-scale data migrations and higher computing power
+        1. Storage Optimized: 80 TB HDD + 1 TB SSD block volume, and 40 vCPUs and 80 GiB RAM
+        2. Compute Optimized: 80 TB HDD + 28 TB SSD block volume, 104 vCPUs + 416 GiB RAM, and optional NVIDIA Tesla V100 GPI
+    D. AWS Snowmobile: an exabyte-scale data transfer service used to move large amounts of data to AWS
+        1. Transfer up to 100 petabytes of data
+        2. 45-foot long ruggedized shipping container
+V. Innovation with AWS
+    A. VMWare Cloud on AWS
+    B. Amazon SageMaker (Machine Learning)
+    C. Amazon Augmented AI (Amazon A2I)
+    D. Amazon Lex (Amazon Alexa chatbot)
+    E. Amazon Textract
+    F. AWS DeepRacer
+    G. Internet of Things
+    H. AWS Groud Station
+VI. Module 9 Summary
+    A. Migration and innovation
+        1. AWS Cloud Adoption Framework (AWS CAF)
+            a. Business, People, and Governance Perspectives for nontechnical planning
+            b. Platform, Security, and Operations Perspectives for technical planning
+        2. 6 R's of migration
+            a. Rehost, replatform, repurchase, refactor, retire, and Retaining
+        3. AWS Snow Family (migrating massive amounts of data)
+
+Module 10: The Cloud journey
+I. Introduction
+    A. Summarize the six pillars of the Well-Architected Framework.
+        1. Operational Excellence
+        2. Security
+        3. Reliability
+        4. Performance Efficiency
+        5. Cost Optimization
+        6. Sustainability
+    B. Explain the six benefits of cloud computing.
+II. The AWS Well-Architected Framework
+    A. Operational Excellence - the ability to run and monitor systems to deliver business value and to continually improve supporting processes and procedures
+    B. Security - the ability to protect information, systems, and assets while delivering business value through risk assessments and mitigation strategies
+    C. Reliability - the ability of a system to recover from infrastructure or service disruptions, dynamically acquire computing resources to meet demand, and mitigate disruptions such as misconfigurations or transient network issues
+    D. Performance Efficiency - the ability to use computing resources efficiently to meet system requirements and to maintain that efficiency as demand changes and technologies evolve
+    E. Cost Optimization - the ability to run systems to deliver business value at the lowest price point
+    F. Sustainability - the ability to continually improve sustainability impacts by reducing energy consumption and increasing efficiency across all components of a workload by maximizing the benefits from the provisioned resources and minimizing the total resources required
+    G. AWS Well Architected Tool - Green / Orange / Red for evaluating your workloads
+III. Benefits of the AWS Cloud
+    A. Takeaways
+        1. AWS services
+        2. AWS terminology
+        3. 6 main benefits of using the AWS Cloud
+            a. Trade upfront fixed expenses for variable expenses
+                i. On-premise data center costs
+                    . Physical space
+                    . Hardware
+                    . Staff for racking and stacking
+                    . Overhead for running data center
+                    . Fixed cost
+                ii. Save money with AWS
+                    . Turn off unused instances.
+                    . Delete old resources
+                    . Optimize your applications
+                    . Receive recommendations from AWS Trusted Advisors
+            b. Benefit from massive economies of scale
+                i. Achieve a lower variable cost than you could running a data center on your own
+            c. Stop guessing capacity
+                i. Guessing your capacity upgront can be problematic if you over or under estimate
+                ii. Scaling on AWS
+                    . Provision resources you need for the now
+                    . Scale up or down
+                    . Scaling can take minutes, not weeks or months
+            d. Increase speed and agility
+                i. Experiment on AWS
+                    . Spin up test environments
+                    . Run experiments
+                    . Delete resources
+                    . Stop incurring costs
+            e. Stop spending money running and maintaining data centers
+                i. AWS allows you to focus on what makes your business valuable
+            f. Go global in minutes
+                i. AWS CloudFormation - automate replicating your architecture to a different region
+IV. Module 10 Summary
+    A. The six pillars of the AWS Well-Architected Framework:
+        1. Operational Excellence
+        2. Security
+        3. Reliability
+        4. Performance efficiency
+        5. Cost optimization
+        6. Sustainability
+    B. Six advantages of cloud computing:
+        1. Trade upfront expense for variable expense
+        2. Benefit from massive economies of scale.
+        3. Stop guessing capacity
+        4. Increase speed and agility
+        5. Stop spending money running and maintaining data centers.
+        6. Go global in minutes
+
+Module 11: AWS Certified Cloud Practioner Basics
+I. Introduction
+    A. Determine resources for preparing for the AWS Certified Cloud Practitioner Exam
+    B. Describe the benefits of becoming AWS Certified.
+II. Exam domains
+    A. Cloud concepts (24%)
+    B. Security and Compiance (30%)
+    C. Technology (34%)
+    D. Billing and Pricing (12%)
+    E. Exam details
+        1. 65 questions in 90 minutes
+        2. Minimum passing score is 700/1000
+        3. Multiple Choice
+        4. Multiple-response
+III. Exam Strategies
+    A. Read the full questions
+    B. Predict the answer before reviewing the response options
+    C. Elimintate incorrect response options
+    
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cloud Quest Game:
+- Does your webpage include any server-side scripts? No -> Static website; Yes -> Dynamic website
+- AWS Global Infrastructure Overview
+    A. 69 Availability Zones (AZ) and 22 Geographic Regions
+    B. Cloud delivers flexible, reliable, scalable, secure, and network performance to meet changing needs of any size companies.
+    C. Components
+        1. AWS Regions - separate geographic area
+        2. Availability Zones (AZ) at least 2 per region, most have 3-6 AZs
+        3. Data Centers - Each AZ has 1 or more discrete data centers (typically 3) that use separate facilities and redundant power
+        4. Network is fully redundant parallel 100 GbE metro fiber network
+        5. Point of Presence (PoP) - Amazon CloudFront Global Content Delivery Network (CDN) reach edge locations and where you need to access Data Centers
+    D. High Availability Application
+        1. Application is partitioned across multiple AZs to protect from natural disasters
+        2. Traffic is routed to other AZs in case of outtage from one AZ
+        3. Application will still be running on AZ-A & B even though AZ-C is down
+        4. Elastic Load Balancer distributes traffic across AZs
+
+Practice test
+1. Which AWS service allows customers to purchase unused Amazon EC2 capacity at an often discounted rate? A: Spot Instances
+2. A company needs to monitor and receive alerts about AWS Management Console sign-in events that involve the AWS account root user. Which AWS service can the company use to meet these requirements? A: Amazon CloudWatch
+3. A user deploys an Amazon RDS DB instance in multiple Availability Zones. This strategy involves which pillar of the AWS Well-Architected Framework? A: Reliability
+4. A user needs to automatically discover, classify, and protect sensitive data stored in Amazon S3. Which AWS service can meet these requirements? A: Amazon Machine
+5. 
+
